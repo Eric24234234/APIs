@@ -127,4 +127,51 @@ This is the first API: http://api.openweathermap.org/geo/1.0/direct?q=Frankfurt&
     }
 ]
 
-**The second API**
+**The second API**   https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=367f9392653ab983c58cdf41226faa37
+
+{
+    "coord": {
+        "lon": 10.99,
+        "lat": 44.34
+    },
+    "weather": [
+        {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 284.86,
+        "feels_like": 284.41,
+        "temp_min": 282.8,
+        "temp_max": 287.08,
+        "pressure": 1016,
+        "humidity": 89,
+        "sea_level": 1016,
+        "grnd_level": 931
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.13,
+        "deg": 199,
+        "gust": 2.23
+    },
+    "clouds": {
+        "all": 11
+    },
+    "dt": 1664610273,
+    "sys": {
+        "type": 2,
+        "id": 2004688,
+        "country": "IT",
+        "sunrise": 1664601202,
+        "sunset": 1664643480
+    },
+    "timezone": 7200,
+    "id": 3163858,
+    "name": "Zocca",
+    "cod": 200
+}
